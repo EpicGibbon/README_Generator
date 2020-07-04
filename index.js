@@ -47,7 +47,7 @@ inquirer
             console.log("");
         }
         else {
-            console.log();
+            console.log("");
         }
     });
 
