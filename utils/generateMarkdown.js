@@ -6,12 +6,11 @@ function generateMarkdown(data) {
 > ## Description
 ${data.description}
 
+> ## Table of Contents
+${data.toc}
 
 > ## Installation
 ${data.install}
-
-> ## Table of Contents
-${data.toc}
 
 > ## Installation
 ${data.install}
@@ -29,8 +28,8 @@ ${data.contrguidelines}
 ${data.testinstr}
 
 > ## Questions 
-${data.github}
-
+[github](http://github.com./${data.github})
+Feel free to reach out to me with any questions or comments: [mailto:${data.email}]
 `;
 }
 
