@@ -1,8 +1,8 @@
-# TitleProject
+# Node.js README Project
   ![badge](https://img.shields.io/badge/License-MIT-red)
 
 ## Description
-Aenean faucibus lorem a egestas euismod. Maecenas facilisis, nibh sed varius aliquet, nisl libero malesuada arcu, eget pellentesque diam nisi quis felis. Ut id fermentum lorem. Suspendisse sagittis ultricies sagittis. Nam accumsan sodales quam, eu sollicitudin felis vulputate ac. Fusce dapibus vehicula turpis ut luctus. Nulla lacinia, sem eu scelerisque tincidunt, tortor ante porttitor eros, id laoreet dui tellus sed velit. Curabitur eleifend sem magna, laoreet auctor ex vulputate in. Vestibulum non dictum elit. Sed non porttitor dolor. Vestibulum pretium lobortis urna, eu ultrices enim lobortis sit amet. Quisque iaculis metus nec vestibulum cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pulvinar, tortor posuere consectetur tristique, erat sem rhoncus ex, vel iaculis metus risus nec mauris.
+This Project is all about simplifying the README file creation process. In this JavaScript application we use Inquirer and GenerateMarkdown to create such effortless files. Inquirer is being used to prompt various questions into the terminal field, whereas generateMarkdown then comes in and grabs these values and helps render them to the Readme file using template literals. This is the first version of this application.  
 
 ## Table of Contents
 * [Description](#Description)
@@ -15,17 +15,17 @@ Aenean faucibus lorem a egestas euismod. Maecenas facilisis, nibh sed varius ali
 ## Installation
 
 ```
-> npm i
+npm i
 ```
 
 ## Usage
-
+This application intended to be ran into Node.js
 
 ## License
 MIT
 
 ## Contributions
-W3Schools, NPM Community, UCF Coding Bootcamp
+Myself, W3Schools, Npm Community, Github, UCF Coding Bootcamp
 
 ## Tests
 ```
