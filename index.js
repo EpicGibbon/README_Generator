@@ -32,18 +32,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is are the contribution guidelines?",
+        message: "What/Who are in the contribution guidelines?",
         name: "contrguidelines"
     },
     {
         type: "input",
         message: "What are the test instructions?",
         name: "testinstr"
-    },
-    {
-        type: "input",
-        name: "userCredits",
-        message: "Who would you like to credit?"
     },
     {
         type: "input",
@@ -54,6 +49,11 @@ const questions = [
         type: "input",
         name: "github",
         message: "What is your GitHub username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your E-mail address??"
     }
 ];
 
