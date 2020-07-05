@@ -17,7 +17,7 @@ ${data.description}
 ## Installation
 
 \`\`\`
-> ${data.install}
+${data.install}
 \`\`\`
 
 ## Usage
