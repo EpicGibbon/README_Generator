@@ -7,17 +7,20 @@ function generateMarkdown(data) {
 ${data.description}
 
 > ## Table of Contents
-- [Description]
-- [Installation]
-- [Usage]
-- [Licensing]
-- [Contributions]
-- [Testing]
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licensing](#License)
+- [Contributions](#Contributions)
+- [Testing](#Tests)
 
 > ## Installation
-${data.install}
 
-> ## Usuage
+\`\`\`
+${data.install}
+\`\`\`
+
+> ## Usage
 ${data.userusage}
 
 > ## License
@@ -27,7 +30,9 @@ ${data.userLic}
 ${data.contrguidelines}
 
 > ## Tests
+\`\`\`
 ${data.testinstr}
+\`\`\`
 
 > ## Questions 
 (http://github.com./${data.github})
