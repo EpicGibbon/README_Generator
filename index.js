@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         message: "What is your user usage?",
-        name: "description"
+        name: "userusage"
     },
     {
         type: "input",
@@ -39,6 +39,21 @@ const questions = [
         type: "input",
         message: "What are the test instructions?",
         name: "testinstr"
+    },
+    {
+        type: "input",
+        name: "userCredits",
+        message: "Who would you like to credit?"
+    },
+    {
+        type: "input",
+        name: "userLic",
+        message: "Which licensing would you like? (ex. Apache, GNU, MIT, ISC)"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your GitHub username?"
     }
 ];
 
@@ -48,8 +63,8 @@ inquirer.prompt(questions)
 // function to write README file
 .then(function (data) {
         //Taking the title name and giving the document that name
-        var readMe = data.name + ".md";
-        fs.writeFile(readMe, generateMarkdown(data), function (err) {
+        var readMe = generateMarkdown(data);
+        fs.writeFile("readMe.md", readMe, function (err) {
             //handle an error if there is one
             if (err) {
                 return console.log(err);
