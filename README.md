@@ -32,6 +32,9 @@ Myself, W3Schools, Npm Community, Github, UCF Coding Bootcamp
 npm init (pkg)
 ```
 
+## Screenshots
+<img src="assets\nodejs screenie.PNG" width="350" >
+
 ## Questions 
 You can click the following link to be taken to my GitHub profile: (http://github.com./EpicGibbon)
 
