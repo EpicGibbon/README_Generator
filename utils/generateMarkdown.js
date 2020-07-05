@@ -35,8 +35,8 @@ ${data.testinstr}
 \`\`\`
 
 ## Questions 
-(http://github.com./${data.github})
-Feel free to reach out to me with any questions or comments: [mailto:${data.email}]
+You can click the following link to be taken to my GitHub profile: (http://github.com./${data.github})\n
+\nFeel free to reach out to me with any questions or comments: [mailto:${data.email}]
 `;
 }
 
